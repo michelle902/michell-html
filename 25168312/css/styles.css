@@ -230,7 +230,12 @@ footer a {
       background-image: url('actual/path/to/heading-pic.jpg'); /* Replace with the actual image path */
     }
   }
-  
+
+  @media screen and (max-width: 619px) {
+    header img {
+      display: none;
+    }
+  }
   
         
 
